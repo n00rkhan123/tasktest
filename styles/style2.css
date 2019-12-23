@@ -1,0 +1,469 @@
+ /* Make the image fully responsive */
+ .section1-backgroundimg{
+	background-image: url(../assect/images/newpic.jpg);
+	background-repeat: no-repeat;
+	 background-size: cover;
+	 min-height: 600px;
+	 animation-name: noor;
+	 animation-duration: 15s;
+	 animation-delay: 10s;
+	 animation-iteration-count: infinite;
+	 animation-timing-function:step-end ;
+ }
+
+
+ @keyframes noor{
+    0%{
+        background-image: url(../assect/images/newpic2.jpg);
+    }
+    20%{
+        background-image: url(../assect/images/newpic3.jpg);
+    }
+    40%{
+      background-image: url(../assect/images/pic4.jpg);
+	}
+	60%{
+		background-image: url(../assect/images/pic5.jpg);
+	  } 80%{
+		background-image: url(../assect/images/pic6.jpg);
+	  } 100%{
+		background-image: url(../assect/images/newpic.jpg);
+	  }
+
+}
+ .carousel-inner img {
+    width: 100%;
+    height: 85vh;
+}
+
+.header{
+   /* background-color: grey; */
+  display: flex;  
+  flex-direction: row;
+ background-color: rgba(0,0,0,0.5);
+}
+.lists ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding:5px
+}
+.lists ul li a{
+color: white;
+text-decoration:none;
+}
+.lists ul li a:hover{
+  color: orange;
+}
+.back{
+  border-color:white!important;
+  background-color: rgba(0,0,0,0.5)!important; 
+  color:white!important;
+}
+.back:hover{
+  background-color: orange!important;
+}
+.btn-one{
+  background-color: #f17a28!important;
+  color:white!important;
+}
+.after-nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+}
+.after-nav h1{
+  line-height: 15px;
+  color: #fff;
+  filter: opacity(80%);
+}
+form{
+  padding-top: 5%;
+  
+}
+form input{
+	background-color: rgba(0,0,0,0.5);
+  color: white;
+  font-size: 40px;
+  padding: 2%;
+  text-align: center;
+  border-color:black;
+  width: 700px;
+  
+}
+.after-nav p{
+  padding-top:5%; 
+  font-size: 21px;
+  color: white;
+  filter: opacity(80%);
+  padding-bottom:10px; 
+}
+.set img{
+  width: 20px!important;
+  height: 20px!important;
+}
+.logo-f{
+    width: 160px!important;
+    height: 45px!important;
+}
+.img-downward{
+    width: 55px!important;
+    height: 90px!important;
+    padding-bottom:40px;
+    /* padding:1%; */
+    /* margin-top: 10px; */
+     
+}
+.below-blankspace {
+	/* padding-top:8%;  */
+	width: 100%;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	/* justify-content: space-around; */
+	justify-content: center;
+	align-items: center;
+	
+}
+.below-blankspace a{
+	padding: 18px;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+.as{
+	padding: 14px 26px!important;
+	
+}
+.as2{
+	padding: 14px 26px!important;
+	background-color: orange!important;
+}
+.as3{
+	padding: 14px 26px!important;
+	background-color: greenyellow!important;
+}
+.as4{
+	padding: 14px 26px!important;
+	background:rgba(0, 0, 0, 0.8)!important;
+}
+.second-bb{
+	color: grey;
+}
+.third{
+	color: orange;
+}
+.fourth{
+	color: greenyellow;
+}
+.fifth{
+	color: lightgrey;
+}
+.sixth{
+	color: orangered;
+}
+
+.below-abm{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top:5%; 
+}
+.abm-heading h1{
+	font-size:50px; 
+	font-family: "Montserrat", sans-serif;
+	filter: opacity(70%);
+}
+.abm-para{
+	padding: 20px;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	filter: opacity(70%);
+}
+.flex{
+	display:flex;
+	flex-direction: column;	
+	align-items: center;
+	padding-top: 11%;
+	justify-content: space-around;
+}
+.smallicon {
+	display:flex;
+	justify-content: space-around;	
+	
+}
+
+.img-belowchapters{
+	background-image: url(../assect/images/map.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.carousel-inner img {
+	width: 100%;
+	height: 85vh;
+}
+.size-big img{
+	width: 60px!important;
+	height: 60px!important;
+}
+.cc{
+	font-family: "Montserrat", sans-serif;
+	background-color: #1E1E3C;
+	color: white;
+	padding:10%; 
+	filter: opacity(90%);
+}
+.cc p{
+	padding-top: 2%;
+	padding-bottom: 3%;
+}
+
+.cc input{
+	width: 300px;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	font-size: 20px;
+	padding: 3%;
+	border: 1px solid #6f7484 !important;
+	border-color: white; 
+	text-align: start;
+	border-color: white;
+}
+
+.btn-lt-abovearrow{
+	/* background-color: #54585a !important; */
+	width: 200px!important;
+	padding-top:10px!important;
+	background-color: #2a2b2c!important;
+    border-color: #2a2b2c!important;
+}
+.btn-lt-abovearrow:hover{
+background-color: #212529 !important;}
+.cc img{
+	margin-top:50px;
+	margin-bottom: -40px; 
+}
+
+.cc p{
+	text-align: center;
+	padding-top: 2%;
+	filter: opacity(80%);
+}
+
+.text-center{
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	font-size: 40px;
+	text-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+	line-height: 1.64;
+    color: #54585a;
+}
+
+
+.below-whats-up{
+	color: white;
+	background-color: #239E9C;	
+}
+.register h3{
+	filter: opacity(80%);
+	font-size: 25px;
+}
+.text-center-re{
+	padding: 5%;
+}
+.text-center-re	{
+	filter:opacity(80%);
+}
+.box-re-op{
+	color: white;
+	background-color: 	#008080;	
+	/* height: 200px; */
+}
+.left-p{
+	display: flex;
+	flex-direction: row;
+}
+
+.col-md-12.left-p {
+    padding: 0px;
+}
+.middle-p.col-md-4 {
+    padding: 0px;
+}
+.first{
+	padding: 5%;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	background-color: #e9ecef;
+}
+.first p{
+
+	opacity: 0.6;
+}
+.first-p p{
+	width: 500px;
+	color: #6a6a6a;
+	font-family: "Montserrat", sans-serif;
+	opacity: 0.6;
+}
+.first h3{
+	opacity: 0.9;
+color: #bfcd31;
+font-family: "Montserrat", sans-serif;
+}
+.second{
+	padding: 5%;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	background-color: #e9ecef;
+
+}
+.second p{
+	/* width: 400px; */
+	color: #6a6a6a;
+	font-family: "Montserrat", sans-serif;
+	background-color: #e9ecef;
+}
+.second h3{
+color: #f17a28;;
+font-family: "Montserrat", sans-serif;
+}
+.btn-first-one{
+background-color: #01c2c4 !important;
+border-color: #01c2c4 !important;
+font-size: 16px;
+padding: 14px 26px !important;
+}
+.btn-second-two{
+	background-color: #323b52!important;
+	font-size: 16px;
+    padding: 14px 26px !important;
+	font-family: "Montserrat", sans-serif;
+	border-color: #323b52 !important;
+}
+
+/* below pictures and text */
+.heading-below-pic-text{
+	font-family: "Montserrat", sans-serif;
+}
+.heading-below-pic-text h2{
+	font-size: 42px;
+    letter-spacing: 5.2px;
+    color: #54585a;
+}
+/* below head and text */
+.below-head-img p{
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	width: 200px;
+}
+.img-below-head h3{
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	letter-spacing: -0.1px;
+
+}
+.p-last{
+	width: 300px;;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+}
+
+
+.below-pics{
+	font-family: "Montserrat", sans-serif;
+	color: #54585a;
+}
+.select option{
+	font-size: 16px;
+    font-weight: lighter;
+    color: #e9ecef;
+    width: 300px;
+    height: 46px;
+}
+.btn-green{
+	color: white!important;
+	background-color: 	#008080!important;
+	border-color:white!important;
+}
+/* ----------------------- */
+
+	/* three-columns */
+	.three-colomuns
+{
+		background-color: #2a2a3f;
+}
+.three-columns-btn{
+	background-color: #f17a28 !important;
+	border-color:  #f17a28 !important;
+	color: white!important;
+}
+.three-columns-btn button{
+border-color:  #f17a28 !important;
+}
+.three-columns-btn-se
+{
+	background-color: #788c96 !important;
+}
+.left-part{
+	width: 500px;
+	color: white;
+	filter: opacity(80%);
+}
+.middle-part h6{
+color: white;	
+filter: opacity(80%);
+}
+.middle-part ul{
+	list-style: none;	
+	color: white;
+	filter: opacity(80%);
+}
+.right-part{
+	color: white;
+	filter: opacity(80%);
+}
+
+
+	/* question-parts */
+	
+	.below-coloums
+	{
+		color: white;
+		background-color: #009ed2;
+	}
+
+	.Question h1{
+		filter: opacity(80%);
+	}
+	.btn-white{
+		background-color: darkorange!important;
+		color: white!important;
+		margin-left: 10px;
+		border-color :white!important; 
+	}
+
+/* footer */
+.footer{
+	height: 400px;
+	background-image: url(../assect/images/footer-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 5%;
+}
+.footer p{
+color: white;
+filter: opacity(80%);
+}
+.footer img{
+color: white;
+}
